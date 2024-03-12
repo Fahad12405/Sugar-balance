@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Sugar Balance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+
+
+
+
+<body>
+
+
+
+  <nav class="navbar">
+    <div class="navbar-left">
+        <img src="https://sugarbalance.world/images/logo.png" alt="Logo Left">
+    </div>
+    <div class="navbar-right" style="display: flex;">
+        <img src="https://sugarbalance.world/images/money-back.png" alt="Logo Right 1">
+        <img src="https://sugarbalance.world/images/global_shipping.png" alt="Logo Right 2">
+    </div>
+  </nav>
+
+
+  <nav class="navbar-2">
+    <div class="navbar-left-2">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Review</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="navbar-right-2">
+        <a href="#"><i class="fa fa-shopping-cart"></i>Order Now</a>
+    </div>
+  </nav>
+
+
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="https://sugarbalance.world/uploads/slider/slider2_1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Order Now</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://sugarbalance.world/uploads/slider/slider1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Sugar Balance Discount Side</p>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="https://sugarbalance.world/uploads/slider/slider2_1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Save upto 60%</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+<div class="middle">
+  <div id="clockdiv">
+    <div>
+      <span id="timer-days" class="days">0</span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span id="timer-hours" class="hours">00</span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span id="timer-minutes" class="minutes">00</span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span id="timer-seconds" class="seconds">00</span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 20px;">
+    <span style="font-size: 24px; color: #333; font-family: Arial, sans-serif; display: block;"><strong>Save Up To 67% and Create Quick <span style="color: #f3b535;">Sugar Balance</span> Order Today</strong></span>
+    <img alt="Order Now" src="https://sugarbalance.world/images/order-button.png" style="border: 0; height: auto; margin: 15px auto; max-width: 100%; display: block;">
+  </div>
+  
+  <div style="text-align: center; margin-top: 20px;">
+    <span style="font-size: 24px; color: #080808; font-family: Arial, sans-serif;"><strong style="color: #f89f05;">Sugar Balance</strong> Official Site - 100% Original</span>
+  </div>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <img alt="Sugar Balance" src="https://sugarbalance.world/uploads/images/center.png" style="height: auto; width: 100%; margin: 25px auto;">
+  </div>
+</div>
+
+
+
+
+
+
+
+<div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_14376466918661mo2" style="position: relative; left: 0px; box-sizing: border-box; width: 100%; padding-left: 0px; padding-right: 0px;">
+  <div class="wpb_column vc_column_container vc_col-sm-12">
+      <div class="wpb_wrapper">
+          <div class="vc_custom_heading vc_custom_1436254735976">
+              <div style="color: #4a4a4a;font-family:Roboto;font-weight:400;font-style:normal" class="icon_bottom"><br>
+
+<p><span style="font-size:30px"><strong>What Exactly Is <span style="color:#f3b535">Sugar Balance</span>?</strong></span></p>
+
+<p>Living a normal life might be challenging when there are irregularities in the body system. High blood sugar levels may be one of these irregularities. High blood sugar levels might make you feel less energetic, can lead to uncontrollable weight gain, or other troubles such as increased thirst. However, managing high blood sugar levels can be quite difficult. For the rest of their lives, the person may need to exercise frequently and keep a close eye on their diet in order to maintain healthy blood sugar levels. It might become challenging to stick to strict dietary restrictions or lead a life solely focused on blood sugar levels. In that case, people might want to use a natural formula.</p>
+
+<p>Sugar Balance is a natural dietary formula that can support your body regarding high blood sugar levels. Through regular use, Sugar Balance's organic ingredient list can lower the blood sugar and the product may help the body to maintain the blood sugar levels at a stable level.</p>
+
+<p>In general, Sugar Balance's organic herbal blend can help the body to decrease high blood sugar levels, and Sugar Balance can support the body to maintain regular blood sugar levels.</p>
+
+<p><span style="font-size:24px"><strong>Side Effects of <span style="color:#f3b535">Sugar Balance</span></strong></span></p>
+
+<p>Sugar Balance is an all-natural, organic dietary formula that was extracted from plants. Up to this date, no serious negative side effects of Sugar Balance have been documented.</p>
+
+<p>Please remember to check with your doctor or the closest healthcare provider before starting to use a new formula. Always make sure to follow the instructions on the bottle regarding the dosage and consume of the product. If you observe any negative side effects, consult your physician.</p>
+
+<p><span style="font-size:24px"><strong>How to Use <span style="color:#f3b535">Sugar Balance</span></strong></span></p>
+
+<p>Sugar Balance comes in bottles that carry 60 capsules, intended for a month's use. You should take two Sugar Balance capsules with a big glass of water. In total, you should take two Sugar Balance capsules daily.</p>
+
+<p>Note: Never go over the dosage that is advised for daily use. Always consult your physician before starting a new routine. If you miss to take your usual dose, do not double your daily dose. Always read the instructions on the bottle carefully. Make sure to follow the instructions regarding the use of the product.</p>
+
+<p><br>
+&nbsp;</p>
+
+<p style="text-align:center"><img alt="" src="https://sugarbalance.world/images/logos-alt.png" style="height:100%; width:753px"></p>
+<br><center><i style="color: #4a4a4a; font-size: 15px;" class="stm-icon-flower-2"></i></center></div></div>
+<!-- End of body section HTML codes -->
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-components" style="background-color: #e6d3b2">
+  <div style="text-align: center; padding-top: 50px;">
+    <h1 style="font-size: 36px; color: #f89f05; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">Now Choose Your Saving Packages</h1>
+  </div>
+  
+  <div class="cards" style="display: flex; justify-content: center; gap: 50px;" >
+    <div class="card" style="width: 18rem; margin-right: 0px; border: 2px solid #f89f05; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+      <img src="https://sugarbalance.world/uploads/hizmetler/large/urun_3.jpg" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: #fff; padding: 20px;">
+        <h5 class="card-title" style="color: #f89f05; font-weight: bold;">3 Box of Sugar Balance</h5>
+        <p class="card-text">3 Months Good Value Packages</p>
+        <h6 class="card-title">Save up to 60%</h6>
+        <p class="card-text">3 bottles</p>
+        <h6 class="card-title">One Time Purchase:</h6>
+        <h5 class="card-title" style="color: #f89f05; font-weight: bold;">$177.00 (265.00$)</h5>
+        <p class="card-text">Free USA Shipping</p>
+        <a href="#" class="btn btn-primary" style="background-color: #f89f05; border-color: #f89f05;">Order Now</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border: 2px solid #f89f05; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+      <img src="https://sugarbalance.world/uploads/hizmetler/large/urun_6_1.jpg" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: #fff; padding: 20px;">
+        <h5 class="card-title" style="color: #f89f05; font-weight: bold;">6 Box of Sugar Balance</h5>
+        <p class="card-text">6 Months Good Value Packages</p>
+        <h6 class="card-title">Save up to 67%</h6>
+        <p class="card-text">6 bottles</p>
+        <h6 class="card-title">One Time Purchase:</h6>
+        <h5 class="card-title" style="color: #f89f05; font-weight: bold;">$294.00 (594.00$)</h5>
+        <p class="card-text">Free Global Shipping</p>
+        <a href="#" class="btn btn-primary" style="background-color: #f89f05; border-color: #f89f05;">Order Now</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border: 2px solid #f89f05; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+      <img src="https://sugarbalance.world/uploads/hizmetler/large/urun_1.jpg" class="card-img-top" alt="...">
+      <div class="card-body" style="background-color: #fff; padding: 20px;">
+        <h5 class="card-title" style="color: #f89f05; font-weight: bold;">1 Box of Sugar Balance</h5>
+        <p class="card-text">1 Month Good Value Packages</p>
+        <h6 class="card-title">Save up to 53%</h6>
+        <p class="card-text">1 bottle</p>
+        <h6 class="card-title">One Time Purchase:</h6>
+        <h5 class="card-title" style="color: #f89f05; font-weight: bold;">$59.00 (64.00$)</h5>
+        <p class="card-text">Small Shipping Fee</p>
+        <a href="#" class="btn btn-primary" style="background-color: #f89f05; border-color: #f89f05;">Order Now</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+<div class="card3">
+<h1 class="page-heading" style="text-align: center;">Other Important Pages</h1>
+
+<div class="other-page" style="display: flex; justify-content: space-around; align-items: center;">
+
+  <div class="card" style="width: 22rem; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <img src="https://sugarbalance.world/uploads/kampanyalar/large/Privacy_Policy_1.jpg" class="card-img-top" alt="Privacy Policy">
+    <div class="card-body">
+      <h4 class="card-text">Privacy Policy</h4>
+      <button class="btn btn-primary" type="button">Read More</button>
+    </div>
+  </div>
+  <div class="card" style="width: 22rem; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <img src="https://sugarbalance.world/uploads/kampanyalar/large/Terms_Of_Use_1.jpg" class="card-img-top" alt="Terms of Use">
+    <div class="card-body">
+      <h4 class="card-text">Terms of Use</h4>
+      <button class="btn btn-primary" type="button">Read More</button>
+    </div>
+  </div>
+  <div class="card" style="width: 22rem; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <img src="https://sugarbalance.world/order-tracking/order-tracking.jpg" class="card-img-top" alt="Technical Documentation">
+    <div class="card-body">
+      <h4 class="card-text">Technical Documentation</h4>
+      <button class="btn btn-primary" type="button">Read More</button>
+    </div>
+  </div>
+</div>
+</div>
+<footer class="footer-widgets-wrapper">
+  <div class="container">
+      <div class="widgets cols-1 clearfix">
+          <aside class="widget widget-text footer-widgets">
+              <div class="widget-content">
+                  <p class="disclaimer-text">
+                      The FDA hasn't examined the product or the material on the website, and it hasn't done any approved study either. It is not the intent of this product or the information on this website to identify, prevent, or treat any disease or condition. The website's articles are only meant for informational purposes; individual outcomes may differ. There is no acceptance of liability for events and acts brought about by the use of the product or the information on the website. The Sugar Balance Associates Program, which gives webmasters a means to make money by advertising and connecting to the Sugar Balance website, accepts members such as the sugarbalance.world website. FTC Disclosure: Although we weren't compensated to advertise this product, we might get commissions from purchases made using the site's links.
+                  </p>
+                  <ul class="footer-links">
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="review.html">REVIEW</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="pages-GUARANTEE">GUARANTEE</a></li>
+                      <li><a href="disclaimer.html">DISCLAIMER</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+              </div>
+          </aside>
+          <div class="copyright-section">
+              <p>  Copyright 2024 © Sugar Balance Discounts Site | All Rights Reserved </p>
+          </div>
+          
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-fPTrqiM4k5yWAP4U7EqN6MwTln2/o0frnHnddrcy+Lwvb9P8PbE15vNRuwZJdi4L" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-d4ibqp83Yd1IX3xr5LqW/HtFUpVUKGjvGEPgk2LuA1c1jlgw4Jw6euYyz1r6wlbM" crossorigin="anonymous"></script>
+
+
+
+
+ 
+    <script>
+  function getTimeRemaining(endtime) {
+    const total = Date.parse(endtime) - Date.parse(new Date());
+    const seconds = Math.floor((total / 1000) % 60);
+    const minutes = Math.floor((total / 1000 / 60) % 60);
+    const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+    const days = Math.floor(total / (1000 * 60 * 60 * 24));
+
+    return {
+      total,
+      days,
+      hours,
+      minutes,
+      seconds
+    };
+  }
+
+  function initializeClock(id, endtime) {
+    const clock = document.getElementById(id);
+    const daysSpan = clock.querySelector('.days');
+    const hoursSpan = clock.querySelector('.hours');
+    const minutesSpan = clock.querySelector('.minutes');
+    const secondsSpan = clock.querySelector('.seconds');
+
+    function updateClock() {
+      const t = getTimeRemaining(endtime);
+
+      daysSpan.innerHTML = t.days;
+      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+      minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+      if (t.total <= 0) {
+        clearInterval(timeinterval);
+      }
+    }
+
+    updateClock();
+    const timeinterval = setInterval(updateClock, 1000);
+  }
+
+  const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // Change this to your desired deadline
+  initializeClock('clockdiv', deadline);
+</script>
+  
+</body>
+</html>

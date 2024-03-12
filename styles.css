@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #fffefe;
+    color: #fff;
+}
+
+.navbar-left img {
+    max-height: 50px;
+}
+
+.navbar-right img {
+    max-height: 40px;
+    margin-left: 10px;
+    display: flex;
+}
+.navbar-2 {
+    width: 80%;
+    margin: 0 auto; 
+    background-color: #009a97;
+    color: white;
+    overflow: hidden;
+    line-height: 20px; 
+}
+
+.navbar-left-2 {
+    float: left;
+}
+
+.navbar-left-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-left-2 ul li {
+    float: left;
+}
+
+.navbar-left-2 ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-left-2 ul li a:hover {
+    background-color: #ddd;
+    color: #ffffff;
+}
+
+.navbar-right-2 {
+    float: right;
+}
+
+.navbar-right-2 a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-right-2 a:hover {
+    background-color: #ddd;
+    color: #ffffff;
+}
+
+#clockdiv {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+  
+  #clockdiv > div {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fdaf14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  #clockdiv .smalltext {
+    font-size: 0.8em;
+    color: #333;
+  }
+  
+  #clockdiv .digit {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #clockdiv .label {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #555;
+    margin-top: 5px;
+  }
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+span {
+    color: #f89f05;
+  }
+  
+  span {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  div {
+    margin-top: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+    body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      .middle {
+        background-color: #009a97;
+        padding: 50px 0;
+        text-align: center;
+        color: white;
+      }
+  
+      .other-page {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+  
+      .card {
+        margin: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+  
+      .card:hover {
+        transform: translateY(-5px);
+      }
+  
+      .card-img-top {
+        max-width: 100%;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+  
+      .card-body {
+        padding: 20px;
+        text-align: center;
+      }
+  
+      .btn-primary {
+        background-color: #f89f05;
+        border-color: #f89f05;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+  
+      .btn-primary:hover {
+        background-color: #f3b535;
+      }
+  
+      /* Footer section */
+      .footer-widgets-wrapper {
+        background-color: #57b8d6;
+        background-image: url('https://sugarbalance.world/wp-content/themes/cinderella/assets/images/floral_pattern.png');
+        background-size: cover;
+        background-position: center;
+        padding: 40px 0;
+        text-align: center;
+      }
+  
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+  
+      .disclaimer-text {
+        font-size: 14px;
+        color: #e9e4e4;
+        line-height: 1.6;
+      }
+  
+      .footer-links {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0 0;
+      }
+  
+      .footer-links li {
+        display: inline;
+        margin-right: 15px;
+      }
+  
+      .footer-links li:last-child {
+        margin-right: 0;
+      }
+  
+      .footer-links a {
+        text-decoration: none;
+        color: #f3eded;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+  
+      .footer-links a:hover {
+        color: #f89f05;
+      }
+  
+      .copyright-section {
+        margin-top: 30px;
+      }
+  
+      .copyright-section p {
+        font-size: 12px;
+        color: #ccc8c8;
+      }
+      #title-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+    }
